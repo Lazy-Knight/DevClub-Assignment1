@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #1FAB89;
+    color: #D7FBE8;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Patua One', cursive;
+}
+
+.navbar table {
+    padding: 20px 0 20px 20px;
+}
+
+.navbar table td {
+    padding: 15px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #D7FBE8;
+}
+
+.navbar a:hover {
+    color: #62D2A2;
+}
+
+.corona {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 24.2px;
+    right: 50px;
+}
+
+.home {
+    background-color: #D7FBE8;
+    height: 800px;
+    color:#1FAB89;
+    text-align: left;
+}
+
+.home h1 {
+    font-size: 5.5rem;
+    margin: 20px auto 0;
+}
+
+.home h3 {
+    width: 80%;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.intro {
+    position: relative;
+    padding-left: 20px;
+    top: 150px;
+    width: 70%;
+}
+
+#covid {
+    margin: 150px 50px 0 0;
+    width: 375px;
+    height: 375px;
+    position: absolute;
+    right: 120px;
+    top: 270px;
+}
+
+.tips {
+    color: #243D25;
+    font-size: 3rem;
+}
+
+.tips h1 {
+    color: #62D2A2;
+    font-size: 3.5rem;
+}
+
+.wear_mask {
+    border-radius: 10px;
+    border-color:#D7FBE8;
+    border-width: 2px;
+    border-style: solid;
+    width: 75%;
+    height: 340px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.mask {
+    width: 300px;
+    height:300px;
+    margin: 20px;
+    position: relative;
+    right: 250px;
+}
+
+.mask_info {
+    width: 30%; 
+    position: absolute;
+    top: 130.8px;
+    right: 70px;
+}
+
+.wash_hands {
+    border-radius: 10px;
+    border-color:#D7FBE8;
+    border-width: 2px;
+    border-style: solid;
+    width: 75%;
+    height: 340px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.hands {
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+    position: relative;
+    left: 250px;
+}
+
+.hands_info {
+    width: 30%;
+    position: absolute;
+    top: 130.8px;
+    left: 70px;
+}
+
+.symptoms {
+    background-color: #62D2A2;
+    color: #243D25;
+    font-size: 2rem;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.symptoms h1 {
+    padding-top: 50px;
+    font-size: 3.5rem;
+}
+
+.symptoms table {
+    background-color:#D7FBE8;
+    color: #1FAB89;
+    margin: 40px auto;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #243D25;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.symptoms table td, .symptoms table th {
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #243D25;
+    padding: 30px;
+}
+
+.faq {
+    background-color: #D7FBE8;
+    color: #1FAB89;
+    margin-top: 0;
+    position: relative;
+    height: 660px;
+}
+
+.faq h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.what {
+    border-radius: 10px;
+    background-color: #1FAB89;
+    color: #D7FBE8;
+    width: 30%;
+    height: 400px;
+    position: absolute;
+    padding: 10px;
+    left: 7.5%;
+}
+
+.container {
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    right: 7.5%;
+}
+
+.sanitize {
+    border-radius: 10px;
+    background-color: #1FAB89;
+    color: #D7FBE8;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    padding: 0 10px;
+}
+
+.sanitize h2, p {
+    position: relative;
+    top: 10px;
+}
+
+.consequences {
+    height: 170px;
+    border-radius: 10px;
+    background-color: #1FAB89;
+    color: #D7FBE8;
+    position: relative;
+    top: 10px;
+    padding: 0 10px;
+}
+
+.consequences h2, p {
+    position: relative;
+    top: 10px;
+}
+
+.utube {
+    color: #62D2A2;
+}
+
+.utube h1 {
+    font-size: 3.5rem;
+}
+
+.utube iframe {
+    border-radius: 20px;
+    border-style:solid;
+    border-color:#62D2A2;
+    border-width: 5px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #1FAB89;
+    color: #D7FBE8;
+    height: 150px;
+}
+
+.footer h2 {
+    margin: 0;
+    padding: 40px 0 10px 0;
+}
+
+.footer a {
+    font-size: 1.4rem;
+    color: #D7FBE8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #62D2A2;
+}
